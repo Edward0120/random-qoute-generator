@@ -20,5 +20,9 @@ soundBtn.addEventListener("click", ()=>{
     speechSynthesis.speak(utterance);
 });
 
+copyBtn.addEventListener("click", ()=>{
+    console.log("copied");
+    navigator.clipboard.writeText(quoteText.innerText);
+});
 
 quoteBtn.addEventListener("click", randomQuote);
