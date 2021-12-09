@@ -119,6 +119,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  cursor: pointer;
   color: #46b989;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -128,5 +129,23 @@ body {
           justify-content: center;
   border-radius: 50%;
   border: 2px solid #46b989;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.wrapper .buttons .features ul li:hover {
+  color: white;
+  background-color: #46b989;
+}
+
+.wrapper .buttons .features button {
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #46b989;
 }
 /*# sourceMappingURL=styles.css.map */

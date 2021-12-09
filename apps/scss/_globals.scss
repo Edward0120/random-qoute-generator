@@ -82,12 +82,29 @@ body{
                     height: 47px;
                     width: 47px;
                     display: flex;
+                    cursor: pointer;
                     color: hsl(155, 45%, 50%);
                     align-items: center;
                     justify-content: center;
                     border-radius: 50%;
                     border: 2px solid hsl(155, 45%, 50%);
+                    transition: all 0.3s ease;
                 }
+
+                li:hover{
+                    color: white;
+                    background-color: hsl(155, 45%, 50%);
+                }
+            }
+            button{
+                border: none;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                font-size: 16px;
+                padding: 13px 22px;
+                border-radius: 30px;
+                background: hsl(155, 45%, 50%);
             }
         }
     }
