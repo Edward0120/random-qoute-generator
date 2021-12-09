@@ -98,13 +98,18 @@ body{
             }
             button{
                 border: none;
-                outline: none;
                 color: white;
                 cursor: pointer;
                 font-size: 16px;
                 padding: 13px 22px;
                 border-radius: 30px;
-                background: hsl(155, 45%, 50%);
+                background-color: hsl(155, 45%, 50%);
+                transition: all 0.3s ease;
+            }
+            button:hover{
+                
+                color: hsl(155, 45%, 50%);
+                background-color: white;
             }
         }
     }

@@ -140,12 +140,18 @@ body {
 
 .wrapper .buttons .features button {
   border: none;
-  outline: none;
   color: white;
   cursor: pointer;
   font-size: 16px;
   padding: 13px 22px;
   border-radius: 30px;
-  background: #46b989;
+  background-color: #46b989;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.wrapper .buttons .features button:hover {
+  color: #46b989;
+  background-color: white;
 }
 /*# sourceMappingURL=styles.css.map */
